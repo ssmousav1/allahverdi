@@ -2,10 +2,10 @@ import { useState } from "react";
 import "./App.css";
 import { Carousel } from "./components/Carousel";
 import img1 from "./assets/img/img1.jpeg";
-import img2 from "./assets/img/img2.jpeg";
-import img3 from "./assets/img/img3.jpeg";
+import img2 from "./assets/img/img7.jpeg";
+import img3 from "./assets/img/img6.jpeg";
 import img4 from "./assets/img/img4.jpeg";
-import logo from "./assets/img/logo.jpeg";
+import logo from "./assets/img/img8.jpeg";
 import { Header } from "./components/Header";
 
 const images = [{ src: img1 }, { src: img2 }, { src: img3 }, { src: img4 }];
@@ -36,31 +36,35 @@ function App() {
             // borderRadius: "10px",
           }}
         >
-          <p style={{ direction: "rtl", fontSize: "30px" }}>
-            نوع انسانها مدتها قبل از اینكه ما حتی حرفی برای آن داشته باشیم از فن
-            آوری استفاده كرده اند. در حالی که ما برای به انجام رساندن کاری بهتر
-            از آنچه در توان خود بود ، شروع به طراحی ابزارهایی کردیم ، ما از
-            فناوری استفاده می کردیم. "پیشنهاد ما" عبارت است از - دانش و کاربرد
-            روشها و مهارتهای خاص در ایجاد محصولات و خدماتی که نیازهای خاص را
-            برآورده می کنند. فناوری از نظر ماهیت خود نوآورانه است - یا می تواند
-            چیزی را که در حال حاضر وجود دارد بهبود بخشد یا چیزی را ایجاد کند که
-            قبلاً برای حل یک مشکل یا مسئله حل نشده دیده نشده است.
+          <p style={{ fontSize: "30px" }}>
+            Humans kind have been using technology long before we even had a
+            word for it.  While we started fashioning tools to accomplish a task
+            better than we could on our own, we were using technology.  “Our
+            offer” is – the knowledge and application of certain methodologies
+            and skills in the creation of products and services that fulfil
+            specific needs. Technology by its very nature is inventive – either
+            improving on what currently exists or creating something never seen
+            before to address an unsolved problem or issue.
           </p>
-          <p style={{ direction: "rtl", fontSize: "30px" }}>
-            ما مفتخریم که سیستم های لوله پنوماتیک (PTS) با فناوری جدید و به روز
-            را برای سراسر جهان ارائه می دهیم ، سیستم های کاملاً ابتکاری و
-            خلاقانه ، آشنا با هر کاربر و سیستم های خاص خاص:
-            <p>- صنعت عمومی و خاص</p>
-            <p>-سیستم های سنگین</p>
-            <p style={{ direction: "ltr" }}>Hi tech سیستم های پزشکی-</p>
-            سیستم های با کارایی بالا برای محیط های خاص.
+          <p style={{ fontSize: "30px" }}>
+            We are proud to offer pneumatic tube systems (PTS) with new and
+            up-to-date technology for around the world  , completely innovative
+            and creative systems   , familiar with every user and specific
+            purpose Systems:  <p>- Industry general and special     </p>
+            <p>-Heavy duty systems  </p>
+            <p>-Advanced and hi tech medical systems  </p>
+            <p>-High performanc systems for specific environments.</p>
           </p>
-          <p style={{ direction: "rtl", fontSize: "30px" }}>
-            در همین حال ، در جمع آوری و نوآوری سیستمها از روشهای معمول و جدید ،
-            کارایی و اثر بخشی سیستم که انتقال سریع و پویایی سیستم را بهبود می
-            بخشد ، مورد توجه قرار گرفته است. از طرف دیگر با یکپارچه سازی در
-            طراحی و تکنیک ، به یک سیستم با کارایی بالا دست یافته ایم برای دریافت
-            اطلاعات و کاتالوگ ها ، لطفا با نماینده ما در منطقه خود تماس بگیرید
+          <p style={{ fontSize: "30px" }}>
+            Meanwhile In collecting and innovating of systems from the usual and
+            new techniques that the efficiency and effectiveness of the system
+            which improve rapid transfer and system dynamics have been
+            considered.  On the other hand with integration in   design and
+            technique, we has been achieved   a high efficiency system  
+            <p>
+              To receive information and catalogues, please contact our
+              representative in your area
+            </p>
           </p>
         </div>
         <div style={{ display: "flex", gap: "50px" }}>
