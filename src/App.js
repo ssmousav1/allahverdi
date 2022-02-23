@@ -74,14 +74,14 @@ function App() {
         <div style={{ display: "flex", gap: "50px" }}>
           <div
             style={{
-              background: "#8c8d8b",
+              background: "#8fbc32",
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
               padding: "50px",
               width: "50%",
-              color: "white",
-              fontSize: "40px",
+              color: "#525252",
+              fontSize: "35px",
               fontWeight: "bold",
             }}
           >
