@@ -36,7 +36,7 @@ function App() {
             // borderRadius: "10px",
           }}
         >
-          <p style={{ fontSize: "30px" }}>
+          <p style={{ fontSize: "30px", lineHeight: "40px" }}>
             Humans kind have been using technology long before we even had a
             word for it.  While we started fashioning tools to accomplish a task
             better than we could on our own, we were using technology.  “Our
@@ -46,7 +46,9 @@ function App() {
             improving on what currently exists or creating something never seen
             before to address an unsolved problem or issue.
           </p>
-          <p style={{ fontSize: "30px" }}>
+          <p
+            style={{ fontSize: "30px", marginTop: "40px", lineHeight: "40px" }}
+          >
             We are proud to offer pneumatic tube systems (PTS) with new and
             up-to-date technology for around the world  , completely innovative
             and creative systems   , familiar with every user and specific
@@ -55,7 +57,9 @@ function App() {
             <p>-Advanced and hi tech medical systems  </p>
             <p>-High performanc systems for specific environments.</p>
           </p>
-          <p style={{ fontSize: "30px" }}>
+          <p
+            style={{ fontSize: "30px", marginTop: "40px", lineHeight: "40px" }}
+          >
             Meanwhile In collecting and innovating of systems from the usual and
             new techniques that the efficiency and effectiveness of the system
             which improve rapid transfer and system dynamics have been
@@ -70,14 +74,14 @@ function App() {
         <div style={{ display: "flex", gap: "50px" }}>
           <div
             style={{
-              background: "#8fbc32",
+              background: "#8c8d8b",
               display: "flex",
               alignItems: "center",
               flexDirection: "column",
               padding: "50px",
               width: "50%",
               color: "white",
-              fontSize: "50px",
+              fontSize: "40px",
               fontWeight: "bold",
             }}
           >
@@ -85,6 +89,7 @@ function App() {
               4520 Mt Pleasant Rd, Brantford, ON N3T 6L5, Canada
             </p>
             <p>+12264000462</p>
+            <p>Info@xptesla.com</p>
           </div>
           <img style={{ width: "50%" }} src={img1} />
         </div>
